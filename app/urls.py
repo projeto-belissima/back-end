@@ -7,11 +7,12 @@ from drf_spectacular.views import (
 )
 from rest_framework.routers import DefaultRouter
 
-from core.views import EnderecoViewSet, UserViewSet
+from core.views import EnderecoViewSet, TelefoneViewSet, UserViewSet
 
 router = DefaultRouter()
 
 router.register(r'enderecos', EnderecoViewSet, basename='enderecos')
+router.register(r'telefones', TelefoneViewSet, basename='telefones')
 router.register(r'usuarios', UserViewSet, basename='usuarios')
 
 urlpatterns = [
