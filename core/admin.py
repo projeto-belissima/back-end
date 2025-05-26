@@ -51,8 +51,10 @@ class UserAdmin(BaseUserAdmin):
     )
 
 
+admin.site.register(models.Encomenda)
 admin.site.register(models.Endereco)
-admin.site.register(models.Telefone)
 admin.site.register(models.Funcionario)
+admin.site.register(models.Medidas)
+admin.site.register(models.Telefone)
 admin.site.register(models.User, UserAdmin)
 admin.site.register(models.Vestido)
