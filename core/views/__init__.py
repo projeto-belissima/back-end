@@ -1,3 +1,4 @@
+from .encomenda import EncomendaViewSet
 from .endereco import EnderecoViewSet
 from .funcionario import FuncionarioViewSet
 from .medidas import MedidasViewSet

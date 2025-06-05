@@ -1,3 +1,4 @@
+from .encomenda import EncomendaSerializer
 from .endereco import EnderecoSerializer
 from .funcionario import FuncionarioSerializer
 from .medidas import MedidasSerializer
