@@ -7,12 +7,13 @@ from drf_spectacular.views import (
 )
 from rest_framework.routers import DefaultRouter
 
-from core.views import EnderecoViewSet, FuncionarioViewSet, TelefoneViewSet, UserViewSet, VestidoViewSet
+from core.views import EnderecoViewSet, FuncionarioViewSet, MedidasViewSet, TelefoneViewSet, UserViewSet, VestidoViewSet
 
 router = DefaultRouter()
 
 router.register(r'enderecos', EnderecoViewSet, basename='enderecos')
 router.register(r'funcionarios', FuncionarioViewSet, basename='funcionarios')
+router.register(r'medidas', MedidasViewSet, basename='medidas')
 router.register(r'telefones', TelefoneViewSet, basename='telefones')
 router.register(r'usuarios', UserViewSet, basename='usuarios')
 router.register(r'vestidos', VestidoViewSet, basename="vestidos")
