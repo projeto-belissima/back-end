@@ -6,50 +6,47 @@ from .user import User
 class Medidas(models.Model):
     usuario = models.ForeignKey(User, related_name="medidas", on_delete=models.CASCADE, verbose_name="Usuário")
     data_medicao = models.DateField(auto_now_add=True)
-    altura = models.DecimalField(max_digits=5, decimal_places=2)
-    busto_altura = models.DecimalField(
-        max_digits=5,
-        decimal_places=2,
-        verbose_name="Altura do busto"
-    )
+    titulo = models.CharField(max_length=40, verbose_name="Título", default="Título")
+    descricao = models.CharField(max_length=100, verbose_name="Descrição", null=True, blank=True)
     busto_circunferencia = models.DecimalField(
         max_digits=5,
         decimal_places=2,
+        default=1,
         verbose_name="Circunferência do busto"
-    )
-    cintura_altura = models.DecimalField(
-        max_digits=5,
-        decimal_places=2,
-        verbose_name="Altura da cintura"
     )
     cintura_circunferencia = models.DecimalField(
         max_digits=5,
         decimal_places=2,
+        default=1,
         verbose_name="Circunferência da cintura"
-    )
-    quadril_altura = models.DecimalField(
-        max_digits=5,
-        decimal_places=2,
-        verbose_name="Altura do quadril"
     )
     quadril_circunferencia = models.DecimalField(
         max_digits=5,
         decimal_places=2,
+        default=1,
         verbose_name="Circunferência do quadril"
     )
-    costas_largura = models.DecimalField(
+    punho_circunferencia = models.DecimalField(
         max_digits=5,
         decimal_places=2,
-        verbose_name="Largura das costas"
+        default=1,
+        verbose_name="Circunferência do punho"
     )
-    ombro_comprimento = models.DecimalField(
+    ombro_altura = models.DecimalField(
         max_digits=5,
         decimal_places=2,
-        verbose_name="Comprimento do ombro"
+        default=1,
+        verbose_name="Altura do ombro"
+    )
+    braco_comprimento = models.DecimalField(
+        max_digits=5,
+        decimal_places=2,
+        default=1,
+        verbose_name="Comprimento do braço"
     )
 
     def __str__(self):
-        return f"{self.id} - {self.usuario.name} {self.data_medicao}"
+        return f"{self.id} - {self.usuario.name} {self.titulo}"
 
     class Meta:
         verbose_name = "Medida"
