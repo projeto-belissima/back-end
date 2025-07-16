@@ -12,12 +12,12 @@ class EncomendaSerializer(ModelSerializer):
 class EncomendaListSerializer(ModelSerializer):
     class Meta:
         model = Encomenda
-        fields = ("id", "vestido", "emissao", "status", "vestido_comprimento", "manga_comprimento", "medidas")
-        depth = 1
+        fields = ("id", "vestido", "emissao", "status", "medidas")
+        depth = 2
 
 
 class EncomendaRetrieveSerializer(ModelSerializer):
     class Meta:
         model = Encomenda
         fields = "__all__"
-        depth = 1
+        depth = 2
