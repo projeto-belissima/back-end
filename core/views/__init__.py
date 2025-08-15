@@ -1,3 +1,4 @@
+from .cor import CorViewSet
 from .encomenda import EncomendaViewSet
 from .endereco import EnderecoViewSet
 from .funcionario import FuncionarioViewSet

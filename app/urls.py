@@ -10,6 +10,7 @@ from drf_spectacular.views import (
 from rest_framework.routers import DefaultRouter
 
 from core.views import (
+    CorViewSet,
     EncomendaViewSet,
     EnderecoViewSet,
     FuncionarioViewSet,
@@ -22,6 +23,7 @@ from uploader.router import router as uploader_router
 
 router = DefaultRouter()
 
+router.register(r'cores', CorViewSet, basename='cores')
 router.register(r'encomendas', EncomendaViewSet, basename='encomendas')
 router.register(r'enderecos', EnderecoViewSet, basename='enderecos')
 router.register(r'funcionarios', FuncionarioViewSet, basename='funcionarios')

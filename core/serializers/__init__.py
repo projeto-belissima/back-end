@@ -1,3 +1,4 @@
+from .cor import CorSerializer
 from .encomenda import EncomendaListSerializer, EncomendaRetrieveSerializer, EncomendaSerializer
 from .endereco import EnderecoSerializer
 from .funcionario import FuncionarioSerializer
