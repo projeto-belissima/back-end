@@ -1,5 +1,6 @@
 from django.db import models
 
+from .cor import Cor
 from .medidas import Medidas
 from .user import User
 from .vestido import Vestido
@@ -15,6 +16,7 @@ class Encomenda(models.Model):
 
     usuario = models.ForeignKey(User, related_name="encomendas", on_delete=models.PROTECT, verbose_name="Usuário")
     vestido = models.ForeignKey(Vestido, related_name="encomendas", on_delete=models.PROTECT, null=True, blank=True)
+    cor = models.ForeignKey(Cor, related_name="encomendas", on_delete=models.PROTECT, null=True, blank=True)
     emissao = models.DateField(auto_now_add=True, verbose_name="Data de emissão")
     retirada = models.DateField(null=True, blank=True, verbose_name="Data de retirada")
     status = models.IntegerField(choices=Status.choices, default=Status.ENCOMENDADO)
