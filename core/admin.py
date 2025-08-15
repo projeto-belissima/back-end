@@ -51,6 +51,7 @@ class UserAdmin(BaseUserAdmin):
     )
 
 
+admin.site.register(models.Cor)
 admin.site.register(models.Encomenda)
 admin.site.register(models.Endereco)
 admin.site.register(models.Funcionario)

@@ -1,3 +1,4 @@
+from .cor import Cor
 from .encomenda import Encomenda
 from .endereco import Endereco
 from .funcionario import Funcionario
