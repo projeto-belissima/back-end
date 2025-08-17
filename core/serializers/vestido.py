@@ -6,14 +6,15 @@ from uploader.serializers import ImageSerializer
 
 
 class VestidoSerializer(ModelSerializer):
-    capa_attachment_key = SlugRelatedField(
+    capa_attachment_keys = SlugRelatedField(
         source='capa',
         queryset=Image.objects.all(),
         slug_field='attachment_key',
         required=False,
         write_only=True,
+        many=True
     )
-    capa = ImageSerializer(required=False, read_only=True)
+    capa = ImageSerializer(required=False, read_only=True, many=True)
 
     class Meta:
         model = Vestido

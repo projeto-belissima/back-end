@@ -11,10 +11,9 @@ class Vestido(models.Model):
     cores = models.ManyToManyField(Cor, related_name="vestidos", blank=True)
     descricao = models.TextField(verbose_name="Descrição")
     media_preco = models.DecimalField(max_digits=6, decimal_places=2, verbose_name="Faixa de Preço")
-    capa = models.ForeignKey(
+    capa = models.ManyToManyField(
         Image,
         related_name='+',
-        on_delete=models.SET_NULL,
         null=True,
         blank=True,
         default=None,
