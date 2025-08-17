@@ -2,6 +2,7 @@ from .cor import CorViewSet
 from .encomenda import EncomendaViewSet
 from .endereco import EnderecoViewSet
 from .funcionario import FuncionarioViewSet
+from .material import MaterialViewSet
 from .medidas import MedidasViewSet
 from .telefone import TelefoneViewSet
 from .user import UserViewSet

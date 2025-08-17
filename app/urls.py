@@ -14,6 +14,7 @@ from core.views import (
     EncomendaViewSet,
     EnderecoViewSet,
     FuncionarioViewSet,
+    MaterialViewSet,
     MedidasViewSet,
     TelefoneViewSet,
     UserViewSet,
@@ -27,6 +28,7 @@ router.register(r'cores', CorViewSet, basename='cores')
 router.register(r'encomendas', EncomendaViewSet, basename='encomendas')
 router.register(r'enderecos', EnderecoViewSet, basename='enderecos')
 router.register(r'funcionarios', FuncionarioViewSet, basename='funcionarios')
+router.register(r'materiais', MaterialViewSet, basename='materiais')
 router.register(r'medidas', MedidasViewSet, basename='medidas')
 router.register(r'telefones', TelefoneViewSet, basename='telefones')
 router.register(r'usuarios', UserViewSet, basename='usuarios')

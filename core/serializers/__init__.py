@@ -2,6 +2,7 @@ from .cor import CorSerializer
 from .encomenda import EncomendaListSerializer, EncomendaRetrieveSerializer, EncomendaSerializer
 from .endereco import EnderecoSerializer
 from .funcionario import FuncionarioSerializer
+from .material import MaterialSerializer
 from .medidas import MedidasSerializer
 from .telefone import TelefoneSerializer
 from .user import UserSerializer
