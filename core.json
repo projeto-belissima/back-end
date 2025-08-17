@@ -273,6 +273,253 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-08-07T14:39:50.819Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Midi Estampado",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-08-15T22:45:56.344Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "1 - Marrom",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-08-15T22:46:08.830Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": "2 - Preto",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-08-15T22:46:19.134Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "3",
+    "object_repr": "3 - Branco",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-08-15T23:10:52.279Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Midi Estampado",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Cores\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-08-15T23:11:21.168Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "3 - Marco André 2025-06-26",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Cor\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-08-17T15:44:05.607Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "2",
+    "object_repr": "Vestido midi manga longa com fenda 2 - 9f6bb466-7858-4bd9-8213-6efad4f643b6",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-08-17T15:44:56.191Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "3",
+    "object_repr": "Vestido midi manga longa com fenda 3 - cb8cb218-fbe0-46af-a514-df642a2845fe",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-08-17T15:45:09.886Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "4",
+    "object_repr": "Vestido midi manga longa com fenda 4 - 920272db-555e-4c79-be15-41406ad5f672",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-08-17T15:45:13.724Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Midi de manga longa com fenda",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descritivo\", \"Descri\\u00e7\\u00e3o\", \"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-08-17T15:49:37.791Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "Vestido midi manga longa com fenda 1 - 3fe0ae4f-65ef-4c86-a52d-981e53f5cc4a",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"File\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-08-17T15:51:55.433Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Midi de manga longa com fenda",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-08-17T16:10:51.894Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "1 - Poliéster",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-08-17T16:11:01.577Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "2",
+    "object_repr": "2 - Algodão",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-08-17T16:13:11.368Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "3",
+    "object_repr": "3 - Linho",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-08-17T16:13:15.153Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "4",
+    "object_repr": "4 - Seda",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-08-17T16:13:23.639Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "5",
+    "object_repr": "5 - Viscose",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2025-08-17T16:13:27.109Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "6",
+    "object_repr": "6 - Modal",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2025-08-17T16:23:20.974Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Midi de manga longa com fenda",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Material\"]}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -705,6 +952,150 @@
   }
 },
 {
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add document",
+    "content_type": 13,
+    "codename": "add_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change document",
+    "content_type": 13,
+    "codename": "change_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete document",
+    "content_type": 13,
+    "codename": "delete_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view document",
+    "content_type": 13,
+    "codename": "view_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add image",
+    "content_type": 14,
+    "codename": "add_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change image",
+    "content_type": 14,
+    "codename": "change_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete image",
+    "content_type": 14,
+    "codename": "delete_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view image",
+    "content_type": 14,
+    "codename": "view_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add Cor",
+    "content_type": 15,
+    "codename": "add_cor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change Cor",
+    "content_type": 15,
+    "codename": "change_cor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete Cor",
+    "content_type": 15,
+    "codename": "delete_cor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view Cor",
+    "content_type": 15,
+    "codename": "view_cor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add Material",
+    "content_type": 16,
+    "codename": "add_material"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change Material",
+    "content_type": 16,
+    "codename": "change_material"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete Material",
+    "content_type": 16,
+    "codename": "delete_material"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view Material",
+    "content_type": 16,
+    "codename": "view_material"
+  }
+},
+{
   "model": "contenttypes.contenttype",
   "pk": 1,
   "fields": {
@@ -801,6 +1192,38 @@
   }
 },
 {
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "uploader",
+    "model": "document"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "uploader",
+    "model": "image"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "core",
+    "model": "cor"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "core",
+    "model": "material"
+  }
+},
+{
   "model": "sessions.session",
   "pk": "2hsvuuxl6rhm1mmubxalqxtkjuib2gq7",
   "fields": {
@@ -818,6 +1241,22 @@
 },
 {
   "model": "sessions.session",
+  "pk": "b4608ovop1ry3rz40d5rcnor99f6y5fx",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQRO_iGlnxlywlPWew7N01DiBbipMKcXcSKQV0o3lv5i1CXJcS1s5zmEhchBKn3y5FfHLdAT1ivTeJrS7zlOSuyIN2eWvEr-vh_h2U2Mu21smaAc4ACVkBg2PKkEd0FpMHRQNqYAbKozcm64jWpy2B8xTRI4nPF_DfOIg:1uc5HR:7Ob6TfS2M7rEnj1SYd7Cm-i_9psRiMmisRWOh6L47AY",
+    "expire_date": "2025-07-30T16:46:53.123Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "bgnjvci49haynukdpgii2ebj5wq7v4pt",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln2krAJJX3OYO3PJIAcKZ8KcXcSKQW0M_Pe2yValz6ts01pUHd10Z1-GZM8rexCH1Tuo5exLNPAfk_8YWffjWqv29H-HfQ099uaMZ6F62AsECmAWBuJsZaAFTQZBSHHANxcKlaQFgQ3kjPVqCam7vMF7lU4sA:1unfPy:MlESlNFEJcAOPkBBjikWlnVGT0Sw7qDtdHzoawxl4eo",
+    "expire_date": "2025-08-31T15:35:34.099Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "fc2azcmp88osrvafctgy87oppqy7tq2q",
   "fields": {
     "session_data": ".eJxVjMEOwiAQRP-FsyEsBJZ49O43ENjdStWUpLQn478rSQ96nHlv5qVS3rea9i5rmlmdFajTb1cyPWQZgO95uTVNbdnWueih6IN2fW0sz8vh_h3U3OtYo0UmZJ9dCOKEHQGSwQIg3wCEMRZrokHjQ_RAmSeg6LwxVuIk6v0B52c3yQ:1uUtUh:TJoaR7ZyvP5dhxWe485gf0D27ZO_uVf4excuPRv4gV8",
@@ -830,6 +1269,14 @@
   "fields": {
     "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1sVx5W:in5DI8MWFfqHmDnlx0MmxosvWqf31MVXNHqDywmdngc",
     "expire_date": "2024-08-05T17:44:42.461Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "h04bwpborrnpythlu46qeffo321vrrmj",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAUBe_iGlkOXmJT0ucM0d9MAsiW4qRC3B0ipYD2zcx7qRG2dRq3Jss4s7qoTp1-NwR6SNkB36HcqqZa1mVGvSv6oE0PleV5Pdy_gwna9K0txxRAyJFxxndd9BSAQuiRUuyFMRqwFDB7FE7pHLJ1mdj30fgsYtX7A-zkOHg:1uk1mO:5148Oxut2GC6_wcWLBLaWwSdWA0RaToO88cyDDqagOw",
+    "expire_date": "2025-08-21T14:39:40.009Z"
   }
 },
 {
@@ -858,6 +1305,22 @@
 },
 {
   "model": "sessions.session",
+  "pk": "su1ay7mfmhs091ou9yruv3oa4yd12hw1",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQRO_iGlnxlywlPWew7N01DiBbipMKcXcSKQV0o3lv5i1CXJcS1s5zmEhchBKn3y5FfHLdAT1ivTeJrS7zlOSuyIN2eWvEr-vh_h2U2Mu21smaAc4ACVkBg2PKkEd0FpMHRQNqYAbKozcm64jWpy2B8xTRI4nPF_DfOIg:1uXL4S:Mf6o1tvHQoNTXJg3lV6wj3g-v-7c5oUCmqdcBHJ3dc0",
+    "expire_date": "2025-07-17T14:37:52.224Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "t4mzjuirifsx5dc8u5mhf4elkubh63yk",
+  "fields": {
+    "session_data": ".eJxVjEsOwjAMBe-SNYoauW4Sluw5Q2Q3Ni2gROpnVXF3FKkL2L6ZN4dJtG9T2ldZ0pzN1Thz-d2YxpeUBvKTyqPasZZtmdk2xZ50tfea5X073b_AROvUsm7sQ-68G1QjskcB5yNEUBp8BoUoDD0SogSlLgYB7gYO7cWKaj5f0R438A:1un1Tl:W5gsZc5sqQEn8c6RE2d85qNh2zefLwkhdSc3M0zIRsY",
+    "expire_date": "2025-08-29T20:56:49.781Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "ua5h048n7996up9h4l8s07eudbuf5s7x",
   "fields": {
     "session_data": ".eJxVjDsOwjAQRO_iGlnxlywlPWew7N01DiBbipMKcXcSKQV0o3lv5i1CXJcS1s5zmEhchBKn3y5FfHLdAT1ivTeJrS7zlOSuyIN2eWvEr-vh_h2U2Mu21smaAc4ACVkBg2PKkEd0FpMHRQNqYAbKozcm64jWpy2B8xTRI4nPF_DfOIg:1uWJgp:7fVhX5BOD4TgK68RQM3ICaYfnOASTy7mnVpe6mCepA0",
@@ -874,6 +1337,22 @@
 },
 {
   "model": "sessions.session",
+  "pk": "xer832xbmpzqz68dngwlknnw6f00imnv",
+  "fields": {
+    "session_data": ".eJxVjM0OwiAQhN-FsyHlZwU8evcZCLssUjU0Ke3J-O62SQ-auc33zbxFTOtS49p5jmMWF6HE6bfDRE9uO8iP1O6TpKkt84hyV-RBu7xNmV_Xw_07qKnXbQ0Dc9GOii1AxitvjdVJOQwKMCSfgQgC2gGgkGK9JTg8m5CdYeWs-HwB4wM3sg:1ulXG8:c-a45fn7spne67EWYRUnERJlsxy9I59Q_bLzzUt3H5A",
+    "expire_date": "2025-08-25T18:28:36.612Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "y33y167vul0hbpy2f0a0r70o8ek9tb0u",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQRO_iGlnxlywlPWew7N01DiBbipMKcXcSKQV0o3lv5i1CXJcS1s5zmEhchBKn3y5FfHLdAT1ivTeJrS7zlOSuyIN2eWvEr-vh_h2U2Mu21smaAc4ACVkBg2PKkEd0FpMHRQNqYAbKozcm64jWpy2B8xTRI4nPF_DfOIg:1uZsPQ:Xa3ivk2xhhIZ9Pxr3ssNBdMBmRXs5c2XMhnBZPjNmwY",
+    "expire_date": "2025-07-24T14:38:00.855Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "yjwv42hyi55wpakgz1o8ls91ty7eqe1u",
   "fields": {
     "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1sJdUV:rY8hd_2m2u3YGGz5LW3BFQGgHfshutei7gPRDpzv9kY",
@@ -881,11 +1360,79 @@
   }
 },
 {
+  "model": "uploader.image",
+  "pk": 1,
+  "fields": {
+    "attachment_key": "3fe0ae4f-65ef-4c86-a52d-981e53f5cc4a",
+    "public_id": "17876d9d-2539-4418-af0d-bf01cd9d1afc",
+    "file": "images/17876d9d-2539-4418-af0d-bf01cd9d1afc_cVT9D07.png",
+    "description": "Vestido midi manga longa com fenda 1",
+    "uploaded_on": "2025-08-07T14:38:28.809Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 2,
+  "fields": {
+    "attachment_key": "9f6bb466-7858-4bd9-8213-6efad4f643b6",
+    "public_id": "f7f368a6-67ca-4f6e-875f-a28e4ea9ea48",
+    "file": "images/f7f368a6-67ca-4f6e-875f-a28e4ea9ea48.png",
+    "description": "Vestido midi manga longa com fenda 2",
+    "uploaded_on": "2025-08-17T15:44:05.602Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 3,
+  "fields": {
+    "attachment_key": "cb8cb218-fbe0-46af-a514-df642a2845fe",
+    "public_id": "9aff5712-c452-4a6f-85a5-ba2804a7f503",
+    "file": "images/9aff5712-c452-4a6f-85a5-ba2804a7f503.png",
+    "description": "Vestido midi manga longa com fenda 3",
+    "uploaded_on": "2025-08-17T15:44:56.191Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 4,
+  "fields": {
+    "attachment_key": "920272db-555e-4c79-be15-41406ad5f672",
+    "public_id": "9abc7922-8419-4273-b210-f69fe29ca97e",
+    "file": "images/9abc7922-8419-4273-b210-f69fe29ca97e.png",
+    "description": "Vestido midi manga longa com fenda 4",
+    "uploaded_on": "2025-08-17T15:45:09.885Z"
+  }
+},
+{
+  "model": "core.cor",
+  "pk": 1,
+  "fields": {
+    "nome": "Marrom",
+    "hex": "#84531F"
+  }
+},
+{
+  "model": "core.cor",
+  "pk": 2,
+  "fields": {
+    "nome": "Preto",
+    "hex": "#000"
+  }
+},
+{
+  "model": "core.cor",
+  "pk": 3,
+  "fields": {
+    "nome": "Branco",
+    "hex": "#FFF"
+  }
+},
+{
   "model": "core.user",
   "pk": 1,
   "fields": {
-    "password": "pbkdf2_sha256$870000$nIHzOds0NdGxBNH2vD62Gf$YGKBXhqMHXWsv8p1QznyzujmDvYLVQETUvh15Vs1pCY=",
-    "last_login": "2025-06-30T18:57:15.520Z",
+    "password": "pbkdf2_sha256$1000000$E5Xl09AlrV97RfcB4NlHza$qmBwXqs+N90ZgGY7VaJLR0oRhcki6j+i4STcy+t/JD8=",
+    "last_login": "2025-08-17T15:35:34.093Z",
     "is_superuser": true,
     "passage_id": "324321544235435",
     "email": "a@a.com",
@@ -918,26 +1465,79 @@
   "fields": {
     "usuario": 2,
     "data_medicao": "2025-05-26",
-    "altura": "180.00",
-    "busto_altura": "26.00",
+    "titulo": "Título",
+    "descricao": null,
     "busto_circunferencia": "88.00",
-    "cintura_altura": "35.00",
     "cintura_circunferencia": "70.00",
-    "quadril_altura": "55.00",
     "quadril_circunferencia": "94.00",
-    "costas_largura": "36.00",
-    "ombro_comprimento": "12.00"
+    "punho_circunferencia": "1.00",
+    "ombro_altura": "1.00",
+    "braco_comprimento": "1.00"
+  }
+},
+{
+  "model": "core.material",
+  "pk": 1,
+  "fields": {
+    "nome": "Poliéster"
+  }
+},
+{
+  "model": "core.material",
+  "pk": 2,
+  "fields": {
+    "nome": "Algodão"
+  }
+},
+{
+  "model": "core.material",
+  "pk": 3,
+  "fields": {
+    "nome": "Linho"
+  }
+},
+{
+  "model": "core.material",
+  "pk": 4,
+  "fields": {
+    "nome": "Seda"
+  }
+},
+{
+  "model": "core.material",
+  "pk": 5,
+  "fields": {
+    "nome": "Viscose"
+  }
+},
+{
+  "model": "core.material",
+  "pk": 6,
+  "fields": {
+    "nome": "Modal"
   }
 },
 {
   "model": "core.vestido",
   "pk": 3,
   "fields": {
-    "material": "98% Viscose 2% Poliéster Forro",
-    "descritivo": "Midi Estampado",
-    "cor": "Marrom",
-    "descricao": "Vestido midi estampado marrom 98% viscose",
-    "media_preco": "287.59"
+    "descritivo": "Midi de manga longa com fenda",
+    "descricao": "Vestido midi liso marrom de manga longa com fenda na perna esquerda",
+    "media_preco": "287.59",
+    "material": [
+      1,
+      2
+    ],
+    "cores": [
+      1,
+      2
+    ],
+    "capa": [
+      1,
+      2,
+      3,
+      4
+    ]
   }
 },
 {
@@ -946,6 +1546,7 @@
   "fields": {
     "usuario": 2,
     "vestido": 3,
+    "cor": 1,
     "emissao": "2025-06-26",
     "retirada": null,
     "status": 1,
