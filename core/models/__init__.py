@@ -2,6 +2,7 @@ from .cor import Cor
 from .encomenda import Encomenda
 from .endereco import Endereco
 from .funcionario import Funcionario
+from .material import Material
 from .medidas import Medidas
 from .telefone import Telefone
 from .user import User
