@@ -3,10 +3,11 @@ from django.db import models
 from uploader.models import Image
 
 from .cor import Cor
+from .material import Material
 
 
 class Vestido(models.Model):
-    material = models.CharField(max_length=100)
+    material = models.ManyToManyField(Material, related_name="vestidos", blank=True)
     descritivo = models.CharField(max_length=200)
     cores = models.ManyToManyField(Cor, related_name="vestidos", blank=True)
     descricao = models.TextField(verbose_name="Descrição")
@@ -14,7 +15,6 @@ class Vestido(models.Model):
     capa = models.ManyToManyField(
         Image,
         related_name='+',
-        null=True,
         blank=True,
         default=None,
     )
