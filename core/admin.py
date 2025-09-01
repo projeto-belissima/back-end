@@ -30,10 +30,10 @@ class CorAdmin(admin.ModelAdmin):
 
 @admin.register(Encomenda)
 class EncomendaAdmin(admin.ModelAdmin):
-    list_display = ('usuario', 'vestido', 'emissao')
-    search_fields = ('usuario', 'vestido', 'emissao')
-    list_filter = ('usuario', 'emissao')
-    ordering = ('usuario', 'vestido', 'emissao')
+    list_display = ('usuario', 'vestido', 'status', 'emissao')
+    search_fields = ('usuario', 'vestido', 'status', 'emissao')
+    list_filter = ('usuario', 'status', 'emissao')
+    ordering = ('usuario', 'vestido', 'status', 'emissao')
     list_per_page = 10
 
 
