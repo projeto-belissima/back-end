@@ -18,4 +18,5 @@ class VestidoSerializer(ModelSerializer):
 
     class Meta:
         model = Vestido
-        fields = "__all__"
+        fields = '__all__'
+        depth = 2
