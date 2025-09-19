@@ -1,3 +1,6 @@
+MODE = 'MIGRATE' 
+MEDIA_URL = '/media/' 
+DATABASES = {'default': {'ENGINE': 'django.db.backends.postgresql', 'USER': 'postgres.xumfbhsbsyeaacgtpeov', 'PASSWORD': 'PeyMc77R5RCR03I3', 'HOST': 'aws-0-sa-east-1.pooler.supabase.com', 'PORT': 5432, 'NAME': 'postgres', 'CONN_MAX_AGE': 600, 'CONN_HEALTH_CHECKS': True, 'DISABLE_SERVER_SIDE_CURSORS': False}}
 [
 {
   "model": "admin.logentry",
@@ -517,6 +520,2281 @@
     "object_repr": "Midi de manga longa com fenda",
     "action_flag": 2,
     "change_message": "[{\"changed\": {\"fields\": [\"Material\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2025-08-17T17:02:35.627Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "5",
+    "object_repr": "Getúlio Vargas - 7fcd18fc-63ac-442d-9ff5-16d6beb40d4d",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2025-08-17T17:03:34.784Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "5",
+    "object_repr": "Getúlio Vargas - 7fcd18fc-63ac-442d-9ff5-16d6beb40d4d",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2025-08-17T17:04:56.774Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "4",
+    "object_repr": "Vestido midi manga longa com fenda 4 - 920272db-555e-4c79-be15-41406ad5f672",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2025-08-17T17:05:12.119Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "3",
+    "object_repr": "Vestido midi manga longa com fenda 3 - cb8cb218-fbe0-46af-a514-df642a2845fe",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2025-08-17T17:05:30.437Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "2",
+    "object_repr": "Vestido midi manga longa com fenda 2 - 9f6bb466-7858-4bd9-8213-6efad4f643b6",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2025-08-17T17:05:47.710Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "Vestido midi manga longa com fenda 1 - 3fe0ae4f-65ef-4c86-a52d-981e53f5cc4a",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2025-08-17T17:06:27.851Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "6",
+    "object_repr": "Vestido midi manga longa com fenda 1 - f9ba3e98-729c-4038-9d9c-926f35884ae4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2025-08-17T17:06:50.989Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "7",
+    "object_repr": "Vestido midi manga longa com fenda 2 - 2ab6b292-7ef3-4a29-af89-33beb035599d",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2025-08-17T17:07:08.435Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "8",
+    "object_repr": "Vestido midi manga longa com fenda 3 - 9fe7c330-8ba6-459f-910a-16436c8a48d8",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2025-08-17T17:07:23.596Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "9",
+    "object_repr": "Vestido midi manga longa com fenda 4 - 4170491f-dfd1-41c1-84b7-9373eb444461",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2025-08-17T17:07:30.243Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Midi de manga longa com fenda",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2025-08-22T11:31:32.202Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Midi de manga longa com fenda",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2025-08-22T11:32:11.028Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Midi de manga longa com fenda",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2025-08-22T11:32:33.307Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Midi de manga longa com fenda",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2025-08-22T11:33:01.700Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Midi de manga longa com fenda",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2025-08-22T11:33:27.927Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Midi de manga longa com fenda",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2025-08-22T11:40:51.877Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Midi de manga longa com fenda",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2025-08-23T19:42:43.622Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "4",
+    "object_repr": "4 - Verde Escuro",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2025-08-23T19:43:20.269Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "5",
+    "object_repr": "5 - Verde Menta",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2025-08-23T19:43:58.266Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "6",
+    "object_repr": "6 - Laranja",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2025-08-23T19:44:25.738Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "7",
+    "object_repr": "7 - Terracota",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2025-08-23T19:44:53.954Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "8",
+    "object_repr": "8 - Pink",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2025-08-23T19:45:33.720Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "9",
+    "object_repr": "9 - Fúcsia",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2025-08-25T15:33:41.784Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Midi de manga longa com fenda",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2025-08-25T15:37:31.334Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Midi de manga longa com fenda",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2025-08-25T15:37:54.178Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Midi de manga longa com fenda",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2025-08-25T15:38:21.323Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Midi de manga longa com fenda",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2025-08-25T15:39:29.506Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "4",
+    "object_repr": "Vestido midi manga longa com fenda 4 - 920272db-555e-4c79-be15-41406ad5f672",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2025-08-25T15:39:29.506Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "3",
+    "object_repr": "Vestido midi manga longa com fenda 3 - cb8cb218-fbe0-46af-a514-df642a2845fe",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2025-08-25T15:39:29.506Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "2",
+    "object_repr": "Vestido midi manga longa com fenda 2 - 9f6bb466-7858-4bd9-8213-6efad4f643b6",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2025-08-25T15:39:29.507Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "Vestido midi manga longa com fenda 1 - 3fe0ae4f-65ef-4c86-a52d-981e53f5cc4a",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2025-08-25T16:48:12.836Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "9",
+    "object_repr": "9 - Fúcsia",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2025-08-25T16:48:12.836Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "8",
+    "object_repr": "8 - Pink",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2025-08-25T16:48:12.836Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "7",
+    "object_repr": "7 - Terracota",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2025-08-25T16:48:12.836Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "6",
+    "object_repr": "6 - Laranja",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2025-08-25T16:48:12.836Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "5",
+    "object_repr": "5 - Verde Menta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2025-08-25T16:48:12.836Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "4",
+    "object_repr": "4 - Verde Escuro",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2025-08-28T18:40:57.308Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "10",
+    "object_repr": "10 - Verde Escuro",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2025-08-28T18:42:10.581Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "11",
+    "object_repr": "11 - Verde Menta",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2025-08-28T18:43:23.835Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "12",
+    "object_repr": "12 - Laranja",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2025-08-28T18:44:11.794Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "13",
+    "object_repr": "13 - Terracota",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2025-08-28T18:46:01.072Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "14",
+    "object_repr": "14 - Hot Pink",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2025-08-28T18:46:31.795Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "15",
+    "object_repr": "15 - Fúcsia",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2025-08-28T18:48:55.565Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "10",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Verde Escuro 1 - a350c091-71ba-4a98-82cc-5dc19ca89da6",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2025-08-28T18:49:17.810Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "11",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Verde Escuro 2 - f3df85cd-7348-44cb-9433-0a76d512c3e5",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2025-08-28T18:49:40.825Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "12",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Verde Escuro 3 - 0da81de4-9b0d-40fa-be52-e1b732927489",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2025-08-28T18:50:01.468Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "13",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Verde Escuro 4 - a14176f8-1a4d-4a28-be49-eeb6f857b0c3",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2025-08-28T18:50:20.362Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "14",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Verde Menta 1 - 00095649-d1d2-483f-b030-a738ded735ab",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2025-08-28T18:50:45.229Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "15",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Verde Menta 2 - 9769046a-27e9-4f57-94a3-60888cbba638",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2025-08-28T18:51:09.535Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "16",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Verde Menta 3 - d5147191-f224-4f78-84cd-b3eb324ca60e",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2025-08-28T18:51:34.075Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "17",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Verde Menta 4 - 698da980-8484-417c-b598-983794b49994",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2025-08-28T18:52:03.960Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "18",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Laranja 1 - 01633135-69af-4ece-9af5-38450f293748",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2025-08-28T18:52:20.607Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "19",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Laranja 2 - f7209422-ea30-4490-94e9-11f0a04fdfee",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2025-08-28T18:52:35.208Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "20",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Larnja 3 - aa5e15ac-94e1-4d9f-9aec-8ef82020dfac",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2025-08-28T18:52:51.991Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "21",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Laranja 4 - 9c1fc407-2362-4a77-ab5a-383090941cb5",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2025-08-28T18:53:20.607Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "22",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Terracota 1 - 6bced015-a283-4b35-9e95-274f68f0f2c7",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2025-08-28T18:53:39.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "23",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Terracota 2 - 10ebb8a0-55a5-4cca-9b6c-cdc7c972a181",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2025-08-28T18:53:57.015Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "24",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Terracota 3 - 68275b54-3b84-40f6-baf4-1a53833f87d1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2025-08-28T18:54:17.453Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "25",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Terracota 4 - 1f6d08fb-cd5f-4914-b5f6-2f77ae3411d9",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2025-08-28T18:54:43.433Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "26",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Hot Pink 1 - 842c7f43-2a0d-4921-a905-726a56aee4db",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2025-08-28T18:55:07.489Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "27",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Hot Pink 2 - 2f8b2666-3f1d-4646-8bbe-4fec59509ce3",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2025-08-28T18:55:28.299Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "28",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Hot Pink 3 - 61a02b85-b2b8-4c25-99ac-d950dd478ca9",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2025-08-28T18:55:49.131Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "29",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Hot Pink 4 - b7c3c66c-b886-4760-bb11-17d2d92416c0",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2025-08-28T18:56:06.835Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "30",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Fúcsia 1 - 506e9a71-aedb-46d5-82f3-0b9d12f5e5d1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2025-08-28T18:56:24.497Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "31",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Fúcsia 2 - 11ea88f9-6b90-4bbf-92a7-1ddb6d3e5599",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2025-08-28T18:57:09.237Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "32",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Fúcsia 3 - 1ebc6286-8daa-42d4-88e6-f865bb904b3c",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2025-08-28T18:57:25.838Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "33",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Fúcsia 4 - 41607dfe-beee-486d-aa49-55e32f5ec67a",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2025-08-28T19:03:05.532Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "6",
+    "object_repr": "Vestido Midi Manga Longa com Fenda Marrom 1 - f9ba3e98-729c-4038-9d9c-926f35884ae4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2025-08-28T19:03:27.263Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "7",
+    "object_repr": "Vestido Midi Manga Longa com Fenda Marrom 2 - 2ab6b292-7ef3-4a29-af89-33beb035599d",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2025-08-28T19:03:50.800Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "8",
+    "object_repr": "Vestido Midi Manga Longa com Fenda Marrom 3 - 9fe7c330-8ba6-459f-910a-16436c8a48d8",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2025-08-28T19:04:10.002Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "9",
+    "object_repr": "Vestido Midi Manga Longa com Fenda Marrom 4 - 4170491f-dfd1-41c1-84b7-9373eb444461",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2025-08-28T19:06:52.727Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "34",
+    "object_repr": "Vestido Midi Manga Longa com Fenda Preto 1 - cbb59198-7533-45e7-9dc6-2a7a7505a36c",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2025-08-28T19:07:08.884Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "35",
+    "object_repr": "Vestido Midi Manga Longa com Fenda Preto 2 - 58e46a02-7747-4a94-8d50-748bae639e19",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2025-08-28T19:07:25.586Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "36",
+    "object_repr": "Vestido Midi Manga Longa com Fenda Preto 3 - 7c5486fb-cf0e-41ec-9c30-035a65871ecc",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2025-08-28T19:07:40.497Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "37",
+    "object_repr": "Vestido Midi Manga Longa com Fenda Preto 4 - 9bd4cb31-a23d-4028-96c4-1aa5957cd36c",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2025-08-28T19:08:17.419Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Midi de manga longa com fenda",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2025-08-28T19:08:25.415Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Midi de manga longa com fenda",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2025-08-28T19:08:34.049Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Midi de manga longa com fenda",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2025-08-28T19:08:43.376Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Midi de manga longa com fenda",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2025-08-28T19:10:18.554Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "7",
+    "object_repr": "7 - Crepe",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2025-08-28T19:10:41.155Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "8",
+    "object_repr": "8 - Chiffon",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2025-08-28T19:14:26.545Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "longo crepe chiffon frente única fluido flor removível",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2025-08-28T19:14:36.740Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "longo crepe chiffon frente única fluido flor removível",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2025-08-28T19:14:40.518Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "longo crepe chiffon frente única fluido flor removível",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2025-08-28T19:14:44.194Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "longo crepe chiffon frente única fluido flor removível",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2025-08-28T19:14:49.331Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "longo crepe chiffon frente única fluido flor removível",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2025-08-28T19:14:54.728Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "longo crepe chiffon frente única fluido flor removível",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 128,
+  "fields": {
+    "action_time": "2025-08-28T19:14:59.781Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "longo crepe chiffon frente única fluido flor removível",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 129,
+  "fields": {
+    "action_time": "2025-08-28T19:15:05.164Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "longo crepe chiffon frente única fluido flor removível",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 130,
+  "fields": {
+    "action_time": "2025-08-28T19:15:10.176Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "longo crepe chiffon frente única fluido flor removível",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 131,
+  "fields": {
+    "action_time": "2025-08-28T19:15:14.974Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "longo crepe chiffon frente única fluido flor removível",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 132,
+  "fields": {
+    "action_time": "2025-08-28T19:15:22.493Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "longo crepe chiffon frente única fluido flor removível",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 133,
+  "fields": {
+    "action_time": "2025-08-28T19:15:27.396Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "longo crepe chiffon frente única fluido flor removível",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 134,
+  "fields": {
+    "action_time": "2025-08-28T19:15:33.328Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "longo crepe chiffon frente única fluido flor removível",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 135,
+  "fields": {
+    "action_time": "2025-08-28T19:15:38.306Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "longo crepe chiffon frente única fluido flor removível",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 136,
+  "fields": {
+    "action_time": "2025-08-28T19:15:42.549Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "longo crepe chiffon frente única fluido flor removível",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 137,
+  "fields": {
+    "action_time": "2025-08-28T19:15:47.407Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "longo crepe chiffon frente única fluido flor removível",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 138,
+  "fields": {
+    "action_time": "2025-08-28T19:15:52.781Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "longo crepe chiffon frente única fluido flor removível",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 139,
+  "fields": {
+    "action_time": "2025-08-28T19:15:58.352Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "longo crepe chiffon frente única fluido flor removível",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 140,
+  "fields": {
+    "action_time": "2025-08-28T19:16:03.863Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "longo crepe chiffon frente única fluido flor removível",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 141,
+  "fields": {
+    "action_time": "2025-08-28T19:16:10.899Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "longo crepe chiffon frente única fluido flor removível",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 142,
+  "fields": {
+    "action_time": "2025-08-28T19:16:16.489Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "longo crepe chiffon frente única fluido flor removível",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 143,
+  "fields": {
+    "action_time": "2025-08-28T19:16:21.303Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "longo crepe chiffon frente única fluido flor removível",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 144,
+  "fields": {
+    "action_time": "2025-08-28T19:16:26.942Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "longo crepe chiffon frente única fluido flor removível",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 145,
+  "fields": {
+    "action_time": "2025-08-28T19:16:32.245Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "longo crepe chiffon frente única fluido flor removível",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 146,
+  "fields": {
+    "action_time": "2025-08-28T19:16:50.538Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "midi de manga longa com fenda",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descritivo\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 147,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "37",
+    "object_repr": "Vestido Midi Manga Longa com Fenda Preto 4 - 9bd4cb31-a23d-4028-96c4-1aa5957cd36c",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 148,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "36",
+    "object_repr": "Vestido Midi Manga Longa com Fenda Preto 3 - 7c5486fb-cf0e-41ec-9c30-035a65871ecc",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 149,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "35",
+    "object_repr": "Vestido Midi Manga Longa com Fenda Preto 2 - 58e46a02-7747-4a94-8d50-748bae639e19",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 150,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "34",
+    "object_repr": "Vestido Midi Manga Longa com Fenda Preto 1 - cbb59198-7533-45e7-9dc6-2a7a7505a36c",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 151,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "33",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Fúcsia 4 - 41607dfe-beee-486d-aa49-55e32f5ec67a",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 152,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "32",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Fúcsia 3 - 1ebc6286-8daa-42d4-88e6-f865bb904b3c",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 153,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "31",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Fúcsia 2 - 11ea88f9-6b90-4bbf-92a7-1ddb6d3e5599",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 154,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "30",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Fúcsia 1 - 506e9a71-aedb-46d5-82f3-0b9d12f5e5d1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 155,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "29",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Hot Pink 4 - b7c3c66c-b886-4760-bb11-17d2d92416c0",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 156,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "28",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Hot Pink 3 - 61a02b85-b2b8-4c25-99ac-d950dd478ca9",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 157,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "27",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Hot Pink 2 - 2f8b2666-3f1d-4646-8bbe-4fec59509ce3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 158,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "26",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Hot Pink 1 - 842c7f43-2a0d-4921-a905-726a56aee4db",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 159,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "25",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Terracota 4 - 1f6d08fb-cd5f-4914-b5f6-2f77ae3411d9",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 160,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "24",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Terracota 3 - 68275b54-3b84-40f6-baf4-1a53833f87d1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 161,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "23",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Terracota 2 - 10ebb8a0-55a5-4cca-9b6c-cdc7c972a181",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 162,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "22",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Terracota 1 - 6bced015-a283-4b35-9e95-274f68f0f2c7",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 163,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "21",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Laranja 4 - 9c1fc407-2362-4a77-ab5a-383090941cb5",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 164,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "20",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Larnja 3 - aa5e15ac-94e1-4d9f-9aec-8ef82020dfac",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 165,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "19",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Laranja 2 - f7209422-ea30-4490-94e9-11f0a04fdfee",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 166,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "18",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Laranja 1 - 01633135-69af-4ece-9af5-38450f293748",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 167,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "17",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Verde Menta 4 - 698da980-8484-417c-b598-983794b49994",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 168,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "16",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Verde Menta 3 - d5147191-f224-4f78-84cd-b3eb324ca60e",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 169,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "15",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Verde Menta 2 - 9769046a-27e9-4f57-94a3-60888cbba638",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 170,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "14",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Verde Menta 1 - 00095649-d1d2-483f-b030-a738ded735ab",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 171,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "13",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Verde Escuro 4 - a14176f8-1a4d-4a28-be49-eeb6f857b0c3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 172,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "12",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Verde Escuro 3 - 0da81de4-9b0d-40fa-be52-e1b732927489",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 173,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "11",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Verde Escuro 2 - f3df85cd-7348-44cb-9433-0a76d512c3e5",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 174,
+  "fields": {
+    "action_time": "2025-08-30T16:39:19.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "10",
+    "object_repr": "Vestido Longo Crepe Chiffon Frente Única Fluido Flor Removível Verde Escuro 1 - a350c091-71ba-4a98-82cc-5dc19ca89da6",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 175,
+  "fields": {
+    "action_time": "2025-08-30T16:41:16.597Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "38",
+    "object_repr": "vestido longo crepe chiffon frente única fluido flor removível fúcsia 1 - 41c73217-aa8e-4748-ba81-218fbb19fd98",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 176,
+  "fields": {
+    "action_time": "2025-08-30T16:41:39.558Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "39",
+    "object_repr": "vestido longo crepe chiffon frente única fluido flor removível fúcsia 2 - c1b4cf6b-331f-4dc2-b3e6-4c10d8041ed2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 177,
+  "fields": {
+    "action_time": "2025-08-30T16:42:01.699Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "40",
+    "object_repr": "vestido longo crepe chiffon frente única fluido flor removível fúcsia 3 - bec549db-a9e0-4ce2-970b-826c41b235df",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 178,
+  "fields": {
+    "action_time": "2025-08-30T16:42:23.413Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "41",
+    "object_repr": "vestido longo crepe chiffon frente única fluido flor removível fúcsia 4 - 85b70ef9-1c8f-4806-bb87-36d1f21f6360",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 179,
+  "fields": {
+    "action_time": "2025-08-30T16:43:11.748Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "42",
+    "object_repr": "vestido longo crepe chiffon frente única fluido flor removível laranja 1 - fcbbe402-342b-4bb6-b89f-adc784aeaae4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 180,
+  "fields": {
+    "action_time": "2025-08-30T16:43:33.834Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "43",
+    "object_repr": "vestido longo crepe chiffon frente única fluido flor removível laranja 2 - 3ecf7797-c238-49ed-be04-ab228c6c0fbc",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 181,
+  "fields": {
+    "action_time": "2025-08-30T16:43:54.710Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "44",
+    "object_repr": "vestido longo crepe chiffon frente única fluido flor removível laranja 3 - 30e33023-5dec-4a11-a394-d3479192b829",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 182,
+  "fields": {
+    "action_time": "2025-08-30T16:44:13.814Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "45",
+    "object_repr": "vestido longo crepe chiffon frente única fluido flor removível laranja 4 - 4887ee6b-7d3e-4621-8ae2-72831ea0e798",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 183,
+  "fields": {
+    "action_time": "2025-08-30T16:44:46.545Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "46",
+    "object_repr": "vestido longo crepe chiffon frente única fluido flor removível hot pink 1 - 5de278e8-e655-44a9-a95f-595fa8815e15",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 184,
+  "fields": {
+    "action_time": "2025-08-30T16:45:07.597Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "47",
+    "object_repr": "vestido longo crepe chiffon frente única fluido flor removível hot pink 2 - 614fed2f-2c79-41c8-9ae0-10679274327d",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 185,
+  "fields": {
+    "action_time": "2025-08-30T16:45:27.905Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "48",
+    "object_repr": "vestido longo crepe chiffon frente única fluido flor removível hot pink 3 - c855a369-84ea-48c6-a659-601ff01ed302",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 186,
+  "fields": {
+    "action_time": "2025-08-30T16:45:48.174Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "49",
+    "object_repr": "vestido longo crepe chiffon frente única fluido flor removível hot pink 4 - b0df98e7-ff5c-480b-a644-f4cd8291d589",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 187,
+  "fields": {
+    "action_time": "2025-08-30T16:46:25.908Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "50",
+    "object_repr": "vestido longo crepe chiffon frente única fluido flor removível terracota 1 - 250bbba6-2c11-4f73-babc-95769e88fe7b",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 188,
+  "fields": {
+    "action_time": "2025-08-30T16:46:47.615Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "51",
+    "object_repr": "vestido longo crepe chiffon frente única fluido flor removível terracota 2 - c8505800-5fd5-431a-80a3-89806626964e",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 189,
+  "fields": {
+    "action_time": "2025-08-30T16:47:15.086Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "52",
+    "object_repr": "vestido longo crepe chiffon frente única fluido flor removível terracota 3 - a237fd75-71d8-4c82-8c7f-29f4b3f06c37",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 190,
+  "fields": {
+    "action_time": "2025-08-30T16:47:36.052Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "53",
+    "object_repr": "vestido longo crepe chiffon frente única fluido flor removível terracota 4 - 55b92a08-ef99-4b4a-9e4e-2c170bc3e0f1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 191,
+  "fields": {
+    "action_time": "2025-08-30T16:48:12.137Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "54",
+    "object_repr": "vestido longo crepe chiffon frente única fluido flor removível verde escuro 1 - 8cad7c55-8705-40af-8a32-87ed8e4da4b3",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 192,
+  "fields": {
+    "action_time": "2025-08-30T17:39:20.822Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "55",
+    "object_repr": "vestido longo crepe chiffon frente única fluido flor removível verde escuro 2 - fab9fda6-4a12-437e-8095-4c3cfc4c6924",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 193,
+  "fields": {
+    "action_time": "2025-08-30T17:39:42.284Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "56",
+    "object_repr": "vestido longo crepe chiffon frente única fluido flor removível verde escuro 3 - 6b5f59ad-828f-4bb0-a3e7-62b9ca32073f",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 194,
+  "fields": {
+    "action_time": "2025-08-30T17:40:01.758Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "57",
+    "object_repr": "vestido longo crepe chiffon frente única fluido flor removível verde escuro 4 - 39896bc8-3e93-4641-9320-759956a33a21",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 195,
+  "fields": {
+    "action_time": "2025-08-30T17:40:25.267Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "58",
+    "object_repr": "vestido longo crepe chiffon frente única fluido flor removível verde menta 1 - 56a5987f-b0bd-41d1-ac69-351167f9f8c9",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 196,
+  "fields": {
+    "action_time": "2025-08-30T17:41:17.860Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "59",
+    "object_repr": "vestido longo crepe chiffon frente única fluido flor removível verde menta 2 - 30d0a271-db0b-4146-9f2c-1f1fcf8b5ed2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 197,
+  "fields": {
+    "action_time": "2025-08-30T17:42:16.472Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "60",
+    "object_repr": "vestido longo crepe chiffon frente única fluido flor removível verde menta 3 - 15b4292a-5c41-495f-b29e-b925c802c7a1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 198,
+  "fields": {
+    "action_time": "2025-08-30T17:42:43.907Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "61",
+    "object_repr": "vestido longo crepe chiffon frente única fluido flor removível verde menta 4 - 902d4ec3-bc3b-469e-972b-5106bbd051d9",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 199,
+  "fields": {
+    "action_time": "2025-08-30T17:43:23.808Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "6",
+    "object_repr": "vestido midi manga de longa com fenda marrom 1 - f9ba3e98-729c-4038-9d9c-926f35884ae4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 200,
+  "fields": {
+    "action_time": "2025-08-30T17:43:55.927Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "7",
+    "object_repr": "vestido midi de manga monga com fenda marrom 2 - 2ab6b292-7ef3-4a29-af89-33beb035599d",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 201,
+  "fields": {
+    "action_time": "2025-08-30T17:44:24.688Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "8",
+    "object_repr": "vestido midi de manga longa com fenda marrom 3 - 9fe7c330-8ba6-459f-910a-16436c8a48d8",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 202,
+  "fields": {
+    "action_time": "2025-08-30T19:33:00.080Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "62",
+    "object_repr": "vestido midi manga de longa com fenda preto 1 - 7c731fac-be60-4cef-b4b9-ccbac6378da8",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 203,
+  "fields": {
+    "action_time": "2025-08-30T19:33:24.290Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "63",
+    "object_repr": "vestido midi manga de longa com fenda preto 2 - 67db8b09-9c8a-4302-a360-3e1eafad2782",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 204,
+  "fields": {
+    "action_time": "2025-08-30T19:33:48.383Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "64",
+    "object_repr": "vestido midi manga de longa com fenda preto 3 - e1000c58-99dd-48ef-b79a-bdef5d512f26",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 205,
+  "fields": {
+    "action_time": "2025-08-30T19:34:16.425Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "65",
+    "object_repr": "vestido midi manga de longa com fenda preto 4 - d060e09f-0ad7-42ab-8f4b-80e1a947c6f1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 206,
+  "fields": {
+    "action_time": "2025-08-30T19:35:30.207Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "9",
+    "object_repr": "vestido midi de manga longa com fenda marrom 4 - 4170491f-dfd1-41c1-84b7-9373eb444461",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 207,
+  "fields": {
+    "action_time": "2025-08-30T19:36:09.785Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "midi de manga longa com fenda",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 208,
+  "fields": {
+    "action_time": "2025-08-30T19:36:48.661Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "midi de manga longa com fenda",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descri\\u00e7\\u00e3o\", \"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 209,
+  "fields": {
+    "action_time": "2025-08-30T19:37:04.905Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "midi de manga longa com fenda",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 210,
+  "fields": {
+    "action_time": "2025-08-30T19:37:23.563Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "midi de manga longa com fenda",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 211,
+  "fields": {
+    "action_time": "2025-09-08T17:25:48.827Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "longo crepe chiffon frente única fluido flor removível",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 212,
+  "fields": {
+    "action_time": "2025-09-08T17:26:43.148Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "3 - Marco André 2025-06-26",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 213,
+  "fields": {
+    "action_time": "2025-09-08T17:27:31.474Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "midi de manga longa com fenda",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 214,
+  "fields": {
+    "action_time": "2025-09-08T17:27:31.474Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "midi de manga longa com fenda",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 215,
+  "fields": {
+    "action_time": "2025-09-08T17:29:04.108Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "midi de manga longa com fenda",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
   }
 },
 {
@@ -1225,6 +3503,22 @@
 },
 {
   "model": "sessions.session",
+  "pk": "0pzgxpq6qnd4v8erzqtpijqknggup37v",
+  "fields": {
+    "session_data": ".eJxVjE0OwiAYBe_C2hCgRYpL956BfH-VqoGktCvj3W2TLnT7Zua9VYJ1yWltMqeJ1UVZdfrdEOgpZQf8gHKvmmpZ5gn1ruiDNn2rLK_r4f4dZGh5qyND7x3GzogzkWUMni3KeXREYbAbhCFCD0Dk0JCx0YC4QCQRre9Qfb75Szip:1upPxG:LQ0I9RyIKCLzuRXXv-WsanUMhNYl3XfT265KaH3XIyM",
+    "expire_date": "2025-09-05T11:29:10.881Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1xmyi9q5j9r0y3l6deczfrqszcbu6nc8",
+  "fields": {
+    "session_data": ".eJxVjE0OwiAYBe_C2hCgRYpL956BfH-VqoGktCvj3W2TLnT7Zua9VYJ1yWltMqeJ1UVZdfrdEOgpZQf8gHKvmmpZ5gn1ruiDNn2rLK_r4f4dZGh5qyND7x3GzogzkWUMni3KeXREYbAbhCFCD0Dk0JCx0YC4QCQRre9Qfb75Szip:1upPxK:WPFKLn5cA5iELAPE3ie2GMTg1IZj4c0acB7482FNHiE",
+    "expire_date": "2025-09-05T11:29:14.069Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "2hsvuuxl6rhm1mmubxalqxtkjuib2gq7",
   "fields": {
     "session_data": ".eJxVjDsOwjAQRO_iGlnxlywlPWew7N01DiBbipMKcXcSKQV0o3lv5i1CXJcS1s5zmEhchBKn3y5FfHLdAT1ivTeJrS7zlOSuyIN2eWvEr-vh_h2U2Mu21smaAc4ACVkBg2PKkEd0FpMHRQNqYAbKozcm64jWpy2B8xTRI4nPF_DfOIg:1uPm7E:EHHQqlfKtKlU2w7qLPzyEFejfZyq1AXAlobemosatGM",
@@ -1237,6 +3531,14 @@
   "fields": {
     "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1sLnSm:j0HQkjbNxWzfywH481e3iiy2qq08knrwB1ZLaagwRb0",
     "expire_date": "2024-07-08T17:26:44.741Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "9hp7n7fzajllhaxvbexsc0br3rxhj8cb",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAQRf-la9NUnCmtS_d8A-k8KqgpCYWV8d-FhIVuzzn3vk2f1mXo16pzP4q5mrM5_TJK_NSyC3mkcp8sT2WZR7J7Yg9bbTeJvm5H-3cwpDpsa5Sc4dK0rhHwERw2GhwESL4NgTyzoiJtWDgixQhIkFvHQVkoumw-X8iIN7k:1uqaJZ:SokxBj2Nll6sggSffD-nAZJzt3n-oDyVUAp1ERxcbrE",
+    "expire_date": "2025-09-08T16:45:01.497Z"
   }
 },
 {
@@ -1273,6 +3575,14 @@
 },
 {
   "model": "sessions.session",
+  "pk": "fid8nts9s9oa28ryyq9oy5ieoppbyod9",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSHFW6C4dN9vIPcBUjWQ9LEy_rs26UK3Z2bOS0Xc1hK3Jc1xEnVRRp1-N0J-pLoDuWO9Nc2trvNEelf0QRc9NknP6-H-HRRcyrf2yaM3gXoLg09nI4zQESALgTNMJltne6IhdCwCIQQGk7vsIThiK-r9AenGODM:1urhVK:D3TqbJRwl1U2Igmob-bSz4BTkx2Va2wh9nf_IN6Tjds",
+    "expire_date": "2025-09-11T18:37:46.572Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "h04bwpborrnpythlu46qeffo321vrrmj",
   "fields": {
     "session_data": ".eJxVjDkOwjAUBe_iGlkOXmJT0ucM0d9MAsiW4qRC3B0ipYD2zcx7qRG2dRq3Jss4s7qoTp1-NwR6SNkB36HcqqZa1mVGvSv6oE0PleV5Pdy_gwna9K0txxRAyJFxxndd9BSAQuiRUuyFMRqwFDB7FE7pHLJ1mdj30fgsYtX7A-zkOHg:1uk1mO:5148Oxut2GC6_wcWLBLaWwSdWA0RaToO88cyDDqagOw",
@@ -1289,6 +3599,14 @@
 },
 {
   "model": "sessions.session",
+  "pk": "j4r9gmx5zcf2qyk3nhsoi8t4ow2osx4t",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCBFgaX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gIJU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VuDHp1i0imPbKMHUNFmo3RyjtHrwfjBZI2AUSkGOqOHiMxkwA7WIYn3B96OOBI:1umWZz:b7PLHeCPVsbH7Wgu5tkveS8urAwhXw7rAgALViEm-QM",
+    "expire_date": "2025-08-28T11:57:11.456Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "kd26mwo8ptvnhwobqjf98k2jafx5h02p",
   "fields": {
     "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1siv9E:6pqbY5DtxpUL-kUHZUoEAbu9Bf9BwN77PXRJ8qRR36c",
@@ -1297,10 +3615,42 @@
 },
 {
   "model": "sessions.session",
+  "pk": "l1i8gtjhiuh9xqk06qmdazzducnlig7s",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCZ0gFcuu8ZmhkGpGpoUtqV8e7apAvd_vfef6mRtrWMW0vLOIm6KKNOvxtTfKS6A7lTvc06znVdJta7og_a9DBLel4P9--gUCvfGgQAA3UuWrG5F9fFHLMNpseMnjkAnb0R6R24zhMnw8FiQLaIQpDV-wPiWDfl:1uptaU:MxFlLDvLRn9Ykfx1igjVsgzicsz2xcNDpA6mfUd7gjg",
+    "expire_date": "2025-09-06T19:07:38.556Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lque7iuu2m3zz0eoypmp6wev8sjlx7yh",
+  "fields": {
+    "session_data": ".eJxVjDEOwjAQBP_iGlk5jpxiSnreEJ3XFxJAthQnFeLvECkFtDsz-3K9rsvYr9Xmfkru7MgdfreoeFjeQLprvhWPkpd5in5T_E6rv5Zkz8vu_h2MWsdv3YqwhSMPJ1hQDha1U4J2EWrUtYkDUwAGCLQBazA03AhEQCTq3h8Bmzi1:1uriKi:hIjWLbHmfZ-AdNChvP2WL4Q1_bYjRr_xmAzereOZQIs",
+    "expire_date": "2025-09-11T19:30:52.024Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "m00asc55glbyx6hdezq5qkxzd8bx5uxh",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pDSlinj0r1nIMMwSNVAUtqV8e7apAvd_vfefylP25r91mTxc1RnZdTpdwvEDyk7iHcqt6q5lnWZg94VfdCmrzXK83K4fweZWv7WY9-h6ZOjwbnA2BFQQrEWDGAka3lwI4FMwJggIaFxEkB4kmjQxaDeH9XyOCw:1uwO4T:Lh7pwRBlC7IQd-qCkahaxs6D9EjEjQn0-EOwDZHlD9E",
+    "expire_date": "2025-09-24T16:53:25.047Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "ml93fnwoyx78fmz8mhpf6ba0c34ytlk4",
   "fields": {
     "session_data": ".eJxVjDsOwjAQRO_iGlnxlywlPWew7N01DiBbipMKcXcSKQV0o3lv5i1CXJcS1s5zmEhchBKn3y5FfHLdAT1ivTeJrS7zlOSuyIN2eWvEr-vh_h2U2Mu21smaAc4ACVkBg2PKkEd0FpMHRQNqYAbKozcm64jWpy2B8xTRI4nPF_DfOIg:1uFZXm:EEbuNITlbCKXqK1qquY1ffCj8KJvjU8SW4dVfDVFRLU",
     "expire_date": "2025-05-29T14:26:42.915Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "owhlxcltrz82u2t7tgd0ijvh6aagl582",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAQRf-la9NUnCmtS_d8A-k8KqgpCYWV8d-FhIVuzzn3vk2f1mXo16pzP4q5mrM5_TJK_NSyC3mkcp8sT2WZR7J7Yg9bbTeJvm5H-3cwpDpsa5Sc4dK0rhHwERw2GhwESL4NgTyzoiJtWDgixQhIkFvHQVkoumw-X8iIN7k:1uqYra:HKOmxzJ_dlMSv1JhZznCJAX1kCgpYzUSyrWAhBcVeVA",
+    "expire_date": "2025-09-08T15:12:02.211Z"
   }
 },
 {
@@ -1317,6 +3667,14 @@
   "fields": {
     "session_data": ".eJxVjEsOwjAMBe-SNYoauW4Sluw5Q2Q3Ni2gROpnVXF3FKkL2L6ZN4dJtG9T2ldZ0pzN1Thz-d2YxpeUBvKTyqPasZZtmdk2xZ50tfea5X073b_AROvUsm7sQ-68G1QjskcB5yNEUBp8BoUoDD0SogSlLgYB7gYO7cWKaj5f0R438A:1un1Tl:W5gsZc5sqQEn8c6RE2d85qNh2zefLwkhdSc3M0zIRsY",
     "expire_date": "2025-08-29T20:56:49.781Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tlhyqdimw0ft0hed1dbu3auuotzbziaw",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQRO_iGlmx418o6XMGa9e7xgHkSHFSIe5OIqWAZop5b-YtImxriVvjJU4krkKJy2-HkJ5cD0APqPdZprmuy4TyUORJmxxn4tftdP8OCrSyr1ljtjiAsi4E5WxOrHWPpIjJhUGlzmPKKYD2XYacA4U9wBhHvjfA4vMFAx85Ag:1undjI:uS5LmnVUSk7mR44NVWGdVlkRjN8k8jBvjwY6SeuDqbQ",
+    "expire_date": "2025-08-31T13:47:24.046Z"
   }
 },
 {
@@ -1361,46 +3719,354 @@
 },
 {
   "model": "uploader.image",
-  "pk": 1,
+  "pk": 6,
   "fields": {
-    "attachment_key": "3fe0ae4f-65ef-4c86-a52d-981e53f5cc4a",
-    "public_id": "17876d9d-2539-4418-af0d-bf01cd9d1afc",
-    "file": "images/17876d9d-2539-4418-af0d-bf01cd9d1afc_cVT9D07.png",
-    "description": "Vestido midi manga longa com fenda 1",
-    "uploaded_on": "2025-08-07T14:38:28.809Z"
+    "attachment_key": "f9ba3e98-729c-4038-9d9c-926f35884ae4",
+    "public_id": "fb8df034-148d-4ba8-86a8-2ac63198c868",
+    "file": "media/images/fb8df034-148d-4ba8-86a8-2ac63198c868_h70n7c",
+    "description": "vestido midi manga de longa com fenda marrom 1",
+    "uploaded_on": "2025-08-17T17:06:27.728Z"
   }
 },
 {
   "model": "uploader.image",
-  "pk": 2,
+  "pk": 7,
   "fields": {
-    "attachment_key": "9f6bb466-7858-4bd9-8213-6efad4f643b6",
-    "public_id": "f7f368a6-67ca-4f6e-875f-a28e4ea9ea48",
-    "file": "images/f7f368a6-67ca-4f6e-875f-a28e4ea9ea48.png",
-    "description": "Vestido midi manga longa com fenda 2",
-    "uploaded_on": "2025-08-17T15:44:05.602Z"
+    "attachment_key": "2ab6b292-7ef3-4a29-af89-33beb035599d",
+    "public_id": "e77c391b-f031-4ef0-8136-1894476c5c44",
+    "file": "media/images/e77c391b-f031-4ef0-8136-1894476c5c44_cmz4jc",
+    "description": "vestido midi de manga monga com fenda marrom 2",
+    "uploaded_on": "2025-08-17T17:06:50.863Z"
   }
 },
 {
   "model": "uploader.image",
-  "pk": 3,
+  "pk": 8,
   "fields": {
-    "attachment_key": "cb8cb218-fbe0-46af-a514-df642a2845fe",
-    "public_id": "9aff5712-c452-4a6f-85a5-ba2804a7f503",
-    "file": "images/9aff5712-c452-4a6f-85a5-ba2804a7f503.png",
-    "description": "Vestido midi manga longa com fenda 3",
-    "uploaded_on": "2025-08-17T15:44:56.191Z"
+    "attachment_key": "9fe7c330-8ba6-459f-910a-16436c8a48d8",
+    "public_id": "bda13124-7009-483f-b6d4-b3939854baf0",
+    "file": "media/images/bda13124-7009-483f-b6d4-b3939854baf0_nfiwnn",
+    "description": "vestido midi de manga longa com fenda marrom 3",
+    "uploaded_on": "2025-08-17T17:07:08.309Z"
   }
 },
 {
   "model": "uploader.image",
-  "pk": 4,
+  "pk": 9,
   "fields": {
-    "attachment_key": "920272db-555e-4c79-be15-41406ad5f672",
-    "public_id": "9abc7922-8419-4273-b210-f69fe29ca97e",
-    "file": "images/9abc7922-8419-4273-b210-f69fe29ca97e.png",
-    "description": "Vestido midi manga longa com fenda 4",
-    "uploaded_on": "2025-08-17T15:45:09.885Z"
+    "attachment_key": "4170491f-dfd1-41c1-84b7-9373eb444461",
+    "public_id": "894c78e4-ccc2-41ad-bc74-fa6362434ad2",
+    "file": "media/images/894c78e4-ccc2-41ad-bc74-fa6362434ad2_rkbj1c",
+    "description": "vestido midi de manga longa com fenda marrom 4",
+    "uploaded_on": "2025-08-17T17:07:23.474Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 38,
+  "fields": {
+    "attachment_key": "41c73217-aa8e-4748-ba81-218fbb19fd98",
+    "public_id": "931ef191-0fe8-4792-a4fe-915643a23a0b",
+    "file": "media/images/931ef191-0fe8-4792-a4fe-915643a23a0b_dwhdjr",
+    "description": "vestido longo crepe chiffon frente única fluido flor removível fúcsia 1",
+    "uploaded_on": "2025-08-30T16:41:16.463Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 39,
+  "fields": {
+    "attachment_key": "c1b4cf6b-331f-4dc2-b3e6-4c10d8041ed2",
+    "public_id": "725ad62d-df2e-4398-84a1-adaa1d15ea06",
+    "file": "media/images/725ad62d-df2e-4398-84a1-adaa1d15ea06_mypz8h",
+    "description": "vestido longo crepe chiffon frente única fluido flor removível fúcsia 2",
+    "uploaded_on": "2025-08-30T16:41:39.274Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 40,
+  "fields": {
+    "attachment_key": "bec549db-a9e0-4ce2-970b-826c41b235df",
+    "public_id": "85a20344-15d3-44a3-9829-3ce6262ab4e6",
+    "file": "media/images/85a20344-15d3-44a3-9829-3ce6262ab4e6_j3leud",
+    "description": "vestido longo crepe chiffon frente única fluido flor removível fúcsia 3",
+    "uploaded_on": "2025-08-30T16:42:01.530Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 41,
+  "fields": {
+    "attachment_key": "85b70ef9-1c8f-4806-bb87-36d1f21f6360",
+    "public_id": "f0d333f4-29d5-4c6b-bee0-eb1df4483eeb",
+    "file": "media/images/f0d333f4-29d5-4c6b-bee0-eb1df4483eeb_epnnzi",
+    "description": "vestido longo crepe chiffon frente única fluido flor removível fúcsia 4",
+    "uploaded_on": "2025-08-30T16:42:23.286Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 42,
+  "fields": {
+    "attachment_key": "fcbbe402-342b-4bb6-b89f-adc784aeaae4",
+    "public_id": "f6d098d7-bdc5-4f5f-91c8-488542ce8801",
+    "file": "media/images/f6d098d7-bdc5-4f5f-91c8-488542ce8801_tdawdq",
+    "description": "vestido longo crepe chiffon frente única fluido flor removível laranja 1",
+    "uploaded_on": "2025-08-30T16:43:11.623Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 43,
+  "fields": {
+    "attachment_key": "3ecf7797-c238-49ed-be04-ab228c6c0fbc",
+    "public_id": "42a28504-f166-4a1d-8ee6-22ff8ccc4de2",
+    "file": "media/images/42a28504-f166-4a1d-8ee6-22ff8ccc4de2_n2zn5v",
+    "description": "vestido longo crepe chiffon frente única fluido flor removível laranja 2",
+    "uploaded_on": "2025-08-30T16:43:33.582Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 44,
+  "fields": {
+    "attachment_key": "30e33023-5dec-4a11-a394-d3479192b829",
+    "public_id": "c6eeee97-0af3-451c-a884-6dc66854f78d",
+    "file": "media/images/c6eeee97-0af3-451c-a884-6dc66854f78d_dlwu5a",
+    "description": "vestido longo crepe chiffon frente única fluido flor removível laranja 3",
+    "uploaded_on": "2025-08-30T16:43:54.583Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 45,
+  "fields": {
+    "attachment_key": "4887ee6b-7d3e-4621-8ae2-72831ea0e798",
+    "public_id": "f70520e3-7912-45c5-ba7a-ef5d006b0fed",
+    "file": "media/images/f70520e3-7912-45c5-ba7a-ef5d006b0fed_lcnclf",
+    "description": "vestido longo crepe chiffon frente única fluido flor removível laranja 4",
+    "uploaded_on": "2025-08-30T16:44:13.682Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 46,
+  "fields": {
+    "attachment_key": "5de278e8-e655-44a9-a95f-595fa8815e15",
+    "public_id": "0a54d066-cad7-45b5-817f-6dc63b33e1e8",
+    "file": "media/images/0a54d066-cad7-45b5-817f-6dc63b33e1e8_unosjt",
+    "description": "vestido longo crepe chiffon frente única fluido flor removível hot pink 1",
+    "uploaded_on": "2025-08-30T16:44:46.418Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 47,
+  "fields": {
+    "attachment_key": "614fed2f-2c79-41c8-9ae0-10679274327d",
+    "public_id": "b59c7f94-9ed5-482f-99d8-421735b0492b",
+    "file": "media/images/b59c7f94-9ed5-482f-99d8-421735b0492b_wjo4fm",
+    "description": "vestido longo crepe chiffon frente única fluido flor removível hot pink 2",
+    "uploaded_on": "2025-08-30T16:45:07.470Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 48,
+  "fields": {
+    "attachment_key": "c855a369-84ea-48c6-a659-601ff01ed302",
+    "public_id": "7cebb1c2-d141-40a1-9305-72b1388fbd68",
+    "file": "media/images/7cebb1c2-d141-40a1-9305-72b1388fbd68_vdwijn",
+    "description": "vestido longo crepe chiffon frente única fluido flor removível hot pink 3",
+    "uploaded_on": "2025-08-30T16:45:27.774Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 49,
+  "fields": {
+    "attachment_key": "b0df98e7-ff5c-480b-a644-f4cd8291d589",
+    "public_id": "d84e1e58-a2b3-4ab2-8a0c-9fb1a372efa3",
+    "file": "media/images/d84e1e58-a2b3-4ab2-8a0c-9fb1a372efa3_sy5qvs",
+    "description": "vestido longo crepe chiffon frente única fluido flor removível hot pink 4",
+    "uploaded_on": "2025-08-30T16:45:47.728Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 50,
+  "fields": {
+    "attachment_key": "250bbba6-2c11-4f73-babc-95769e88fe7b",
+    "public_id": "7bf07847-637a-449c-b253-de54ebb8acc7",
+    "file": "media/images/7bf07847-637a-449c-b253-de54ebb8acc7_fa7frq",
+    "description": "vestido longo crepe chiffon frente única fluido flor removível terracota 1",
+    "uploaded_on": "2025-08-30T16:46:25.772Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 51,
+  "fields": {
+    "attachment_key": "c8505800-5fd5-431a-80a3-89806626964e",
+    "public_id": "440eaa56-8cab-4c20-a4a6-902e54d63952",
+    "file": "media/images/440eaa56-8cab-4c20-a4a6-902e54d63952_bp9fdk",
+    "description": "vestido longo crepe chiffon frente única fluido flor removível terracota 2",
+    "uploaded_on": "2025-08-30T16:46:47.484Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 52,
+  "fields": {
+    "attachment_key": "a237fd75-71d8-4c82-8c7f-29f4b3f06c37",
+    "public_id": "f3955f0f-d98a-47d4-9c3b-6746a5bcac46",
+    "file": "media/images/f3955f0f-d98a-47d4-9c3b-6746a5bcac46_rjhejo",
+    "description": "vestido longo crepe chiffon frente única fluido flor removível terracota 3",
+    "uploaded_on": "2025-08-30T16:47:14.959Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 53,
+  "fields": {
+    "attachment_key": "55b92a08-ef99-4b4a-9e4e-2c170bc3e0f1",
+    "public_id": "a209f78f-1c0d-46f9-bf72-56d1ab504502",
+    "file": "media/images/a209f78f-1c0d-46f9-bf72-56d1ab504502_yneufv",
+    "description": "vestido longo crepe chiffon frente única fluido flor removível terracota 4",
+    "uploaded_on": "2025-08-30T16:47:35.926Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 54,
+  "fields": {
+    "attachment_key": "8cad7c55-8705-40af-8a32-87ed8e4da4b3",
+    "public_id": "ee90cf0d-d072-44ee-bce4-bff78298abc7",
+    "file": "media/images/ee90cf0d-d072-44ee-bce4-bff78298abc7_gqwat8",
+    "description": "vestido longo crepe chiffon frente única fluido flor removível verde escuro 1",
+    "uploaded_on": "2025-08-30T16:48:12.010Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 55,
+  "fields": {
+    "attachment_key": "fab9fda6-4a12-437e-8095-4c3cfc4c6924",
+    "public_id": "e3d9d3a0-6c44-4506-8780-6d0d90aa774b",
+    "file": "media/images/e3d9d3a0-6c44-4506-8780-6d0d90aa774b_fmxteh",
+    "description": "vestido longo crepe chiffon frente única fluido flor removível verde escuro 2",
+    "uploaded_on": "2025-08-30T17:39:20.689Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 56,
+  "fields": {
+    "attachment_key": "6b5f59ad-828f-4bb0-a3e7-62b9ca32073f",
+    "public_id": "363eb8a7-b881-4d94-ab14-599e86c94926",
+    "file": "media/images/363eb8a7-b881-4d94-ab14-599e86c94926_nuvefw",
+    "description": "vestido longo crepe chiffon frente única fluido flor removível verde escuro 3",
+    "uploaded_on": "2025-08-30T17:39:42.156Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 57,
+  "fields": {
+    "attachment_key": "39896bc8-3e93-4641-9320-759956a33a21",
+    "public_id": "8b41d040-3c49-43e7-8614-c3bca959cc34",
+    "file": "media/images/8b41d040-3c49-43e7-8614-c3bca959cc34_udrmrl",
+    "description": "vestido longo crepe chiffon frente única fluido flor removível verde escuro 4",
+    "uploaded_on": "2025-08-30T17:40:01.627Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 58,
+  "fields": {
+    "attachment_key": "56a5987f-b0bd-41d1-ac69-351167f9f8c9",
+    "public_id": "6cc8ec4c-3d46-48dd-8b08-8a30fcbd4c43",
+    "file": "media/images/6cc8ec4c-3d46-48dd-8b08-8a30fcbd4c43_cysbwg",
+    "description": "vestido longo crepe chiffon frente única fluido flor removível verde menta 1",
+    "uploaded_on": "2025-08-30T17:40:25.004Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 59,
+  "fields": {
+    "attachment_key": "30d0a271-db0b-4146-9f2c-1f1fcf8b5ed2",
+    "public_id": "c90cac52-3bbe-473b-8a0a-04d2727bb18c",
+    "file": "media/images/c90cac52-3bbe-473b-8a0a-04d2727bb18c_vngg1f",
+    "description": "vestido longo crepe chiffon frente única fluido flor removível verde menta 2",
+    "uploaded_on": "2025-08-30T17:41:17.607Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 60,
+  "fields": {
+    "attachment_key": "15b4292a-5c41-495f-b29e-b925c802c7a1",
+    "public_id": "d941dc66-76f1-4ccb-8cee-3b97818eb95f",
+    "file": "media/images/d941dc66-76f1-4ccb-8cee-3b97818eb95f_hzfx87",
+    "description": "vestido longo crepe chiffon frente única fluido flor removível verde menta 3",
+    "uploaded_on": "2025-08-30T17:42:16.218Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 61,
+  "fields": {
+    "attachment_key": "902d4ec3-bc3b-469e-972b-5106bbd051d9",
+    "public_id": "97b3139d-bcf3-4cf9-a794-e0f3d8bc7e67",
+    "file": "media/images/97b3139d-bcf3-4cf9-a794-e0f3d8bc7e67_npvyjc",
+    "description": "vestido longo crepe chiffon frente única fluido flor removível verde menta 4",
+    "uploaded_on": "2025-08-30T17:42:43.779Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 62,
+  "fields": {
+    "attachment_key": "7c731fac-be60-4cef-b4b9-ccbac6378da8",
+    "public_id": "ab540210-b423-4def-a062-88d7ecae9040",
+    "file": "media/images/ab540210-b423-4def-a062-88d7ecae9040_ubosrn",
+    "description": "vestido midi manga de longa com fenda preto 1",
+    "uploaded_on": "2025-08-30T19:32:59.807Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 63,
+  "fields": {
+    "attachment_key": "67db8b09-9c8a-4302-a360-3e1eafad2782",
+    "public_id": "d4dec30d-527d-44a5-a800-44d6e155a201",
+    "file": "media/images/d4dec30d-527d-44a5-a800-44d6e155a201_nkmkof",
+    "description": "vestido midi manga de longa com fenda preto 2",
+    "uploaded_on": "2025-08-30T19:33:24.162Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 64,
+  "fields": {
+    "attachment_key": "e1000c58-99dd-48ef-b79a-bdef5d512f26",
+    "public_id": "0868022a-b3d7-4056-9f43-cf64827a846c",
+    "file": "media/images/0868022a-b3d7-4056-9f43-cf64827a846c_whcrfb",
+    "description": "vestido midi manga de longa com fenda preto 3",
+    "uploaded_on": "2025-08-30T19:33:48.261Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 65,
+  "fields": {
+    "attachment_key": "d060e09f-0ad7-42ab-8f4b-80e1a947c6f1",
+    "public_id": "c57bc044-8c90-4b9b-b113-06fa437423dc",
+    "file": "media/images/c57bc044-8c90-4b9b-b113-06fa437423dc_xtynt8",
+    "description": "vestido midi manga de longa com fenda preto 4",
+    "uploaded_on": "2025-08-30T19:34:16.172Z"
   }
 },
 {
@@ -1428,11 +4094,59 @@
   }
 },
 {
+  "model": "core.cor",
+  "pk": 10,
+  "fields": {
+    "nome": "Verde Escuro",
+    "hex": "#06402B"
+  }
+},
+{
+  "model": "core.cor",
+  "pk": 11,
+  "fields": {
+    "nome": "Verde Menta",
+    "hex": "#ADEBB3"
+  }
+},
+{
+  "model": "core.cor",
+  "pk": 12,
+  "fields": {
+    "nome": "Laranja",
+    "hex": "#FF5C00"
+  }
+},
+{
+  "model": "core.cor",
+  "pk": 13,
+  "fields": {
+    "nome": "Terracota",
+    "hex": "#E35336"
+  }
+},
+{
+  "model": "core.cor",
+  "pk": 14,
+  "fields": {
+    "nome": "Hot Pink",
+    "hex": "#FF46A2"
+  }
+},
+{
+  "model": "core.cor",
+  "pk": 15,
+  "fields": {
+    "nome": "Fúcsia",
+    "hex": "#FF00FF"
+  }
+},
+{
   "model": "core.user",
   "pk": 1,
   "fields": {
-    "password": "pbkdf2_sha256$1000000$E5Xl09AlrV97RfcB4NlHza$qmBwXqs+N90ZgGY7VaJLR0oRhcki6j+i4STcy+t/JD8=",
-    "last_login": "2025-08-17T15:35:34.093Z",
+    "password": "pbkdf2_sha256$1000000$vRz0ZD4ttgsR0K07WgGAif$vx7XOYIZYfRvng4keiHCa2Cc6y1UJ5l0AylI7oNdS3A=",
+    "last_login": "2025-09-10T16:53:25.028Z",
     "is_superuser": true,
     "passage_id": "324321544235435",
     "email": "a@a.com",
@@ -1518,12 +4232,72 @@
   }
 },
 {
-  "model": "core.vestido",
-  "pk": 3,
+  "model": "core.material",
+  "pk": 7,
   "fields": {
-    "descritivo": "Midi de manga longa com fenda",
-    "descricao": "Vestido midi liso marrom de manga longa com fenda na perna esquerda",
-    "media_preco": "287.59",
+    "nome": "Crepe"
+  }
+},
+{
+  "model": "core.material",
+  "pk": 8,
+  "fields": {
+    "nome": "Chiffon"
+  }
+},
+{
+  "model": "core.vestido",
+  "pk": 4,
+  "fields": {
+    "descritivo": "longo crepe chiffon frente única fluido flor removível",
+    "descricao": "Vestido longo de tecido crepe chiffon com bojo interno, forro e flor removível 100% poliéster.",
+    "media_preco": "430.00",
+    "material": [
+      1
+    ],
+    "cores": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "capa": [
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61
+    ]
+  }
+},
+{
+  "model": "core.vestido",
+  "pk": 5,
+  "fields": {
+    "descritivo": "midi de manga longa com fenda",
+    "descricao": "vestido midi de manga longa com fenda na perna esquerda",
+    "media_preco": "200.00",
     "material": [
       1,
       2
@@ -1533,26 +4307,15 @@
       2
     ],
     "capa": [
-      1,
-      2,
-      3,
-      4
+      64,
+      65,
+      6,
+      7,
+      8,
+      9,
+      62,
+      63
     ]
-  }
-},
-{
-  "model": "core.encomenda",
-  "pk": 3,
-  "fields": {
-    "usuario": 2,
-    "vestido": 3,
-    "cor": 1,
-    "emissao": "2025-06-26",
-    "retirada": null,
-    "status": 1,
-    "medidas": 1,
-    "observacoes": "Tamanho da manga até um pouco a cima do cotovelo",
-    "preco": "134.59"
   }
 },
 {
