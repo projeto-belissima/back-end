@@ -1,6 +1,3 @@
-MODE = 'MIGRATE' 
-MEDIA_URL = '/media/' 
-DATABASES = {'default': {'ENGINE': 'django.db.backends.postgresql', 'USER': 'postgres.xumfbhsbsyeaacgtpeov', 'PASSWORD': 'PeyMc77R5RCR03I3', 'HOST': 'aws-0-sa-east-1.pooler.supabase.com', 'PORT': 5432, 'NAME': 'postgres', 'CONN_MAX_AGE': 600, 'CONN_HEALTH_CHECKS': True, 'DISABLE_SERVER_SIDE_CURSORS': False}}
 [
 {
   "model": "admin.logentry",
