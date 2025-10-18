@@ -4,7 +4,7 @@ from .user import User
 
 
 class Endereco(models.Model):
-    cep = models.IntegerField(null=False, blank=False)
+    cep = models.CharField(max_length=9, null=False, blank=False)
     numero = models.IntegerField(null=True, blank=True, verbose_name="Número")
     logradouro = models.CharField(max_length=200)
     bairro = models.CharField(max_length=200)
