@@ -75,10 +75,10 @@ class MedidasAdmin(admin.ModelAdmin):
 
 @admin.register(Telefone)
 class TelefoneAdmin(admin.ModelAdmin):
-    list_display = ('usuario', 'ddd', 'numero')
+    list_display = ('usuario', 'numero')
     search_fields = ('usuario', 'numero')
     list_filter = ('usuario',)
-    ordering = ('usuario', 'ddd', 'numero')
+    ordering = ('usuario', 'numero')
     list_per_page = 10
 
 

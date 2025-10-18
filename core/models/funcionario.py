@@ -12,7 +12,7 @@ class Funcionario(models.Model):
         INATIVO = 4, "Inativo"
 
     usuario = models.ForeignKey(User, related_name="funcionarios", on_delete=models.PROTECT, verbose_name="Usuário")
-    cpf = models.CharField(max_length=14, unique=True, verbose_name="CPF")
+    cpf = models.IntegerField(unique=True, verbose_name="CPF")
     formacao = models.CharField(max_length=100, verbose_name="Formação")
     cargo = models.CharField(max_length=100)
     setor = models.CharField(max_length=50)
